@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Ovidiu Unguritu</title>
+
+    <meta charset="utf-8">
+    <meta name="author" content="Ovidiu Unguritu">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" type="image/png" href="img/favicon-16x16.png">
+
+    <noscript>
+        <link rel="stylesheet" href="css/style-noscript.css">
+    </noscript>
+</head>
+
+<body class="loading">
+    <div id="wrapper">
+        <div id="main">
+            <header id="header">
+                <h1>Ovidiu Unguritu</h1>
+                <p>Find me on:</p>
+
+                <nav>
+                    <ul>
+                        <li><a href="https://github.com/oviung" class="icon fa-github"><span class="label">Github</span></a></li>
+                        <li><a href="https://twitter.com/oviung" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+                        <li><a href="https://soundcloud.com/oviung" class="icon fa-soundcloud"><span class="label">SoundCloud</span></a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+    </div>
+
+    <script>
+        // Remove "loading" class once the page has fully loaded.
+        window.onload = function() { document.body.className = ''; }
+        // Fix scroll position on orientation change.
+        window.onorientationchange = function() { document.body.scrollTop = 0; }
+        // Prevent force enabled zooming on touch
+        window.ontouchmove = function() { return false; }
+    </script>
+</body>
+
+</html>
